@@ -4,7 +4,7 @@ import React, { Component } from "react";
 class Header extends Component {
   render() {
     return (
-      <div class="bg-white lg:pb-12">
+      <div class="bg-white lg:pb-2">
         <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
           <header class="flex items-center justify-between py-4 md:py-8">
             <a
@@ -12,7 +12,7 @@ class Header extends Component {
               class="inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl"
               aria-label="logo"
             >
-              Sonrisas
+              Odontoclinic
             </a>
 
             <nav class="hidden gap-12 lg:flex">
